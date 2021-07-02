@@ -41,8 +41,8 @@ In [3]:
 #possible sequencing artifacts (ambiguous), labelled as 0/1 when no heterozigosis is possible in M.tuberculosis
 #complete record or brief reference to position, reference and alternative allele.
 #INDELs
-def parse_one(file, include_ambiguous=True, completo=True, include_INDEL=True):    #incluir_ambiguos nos permite seleccionar -o no- las variantes marcadas 0/1
-    
+def parse_one(file, include_ambiguous=True, completo=True, include_INDEL=True):    
+                                                     #include_ambiguos allows us to avoid those probably flawed alleles marked as 0/1
     tabla=[]  
     encabezado=[]
     
