@@ -17,7 +17,8 @@ import zipfile
 In [2]:
 
 ```python
-#A general function that creates a folder and unzips the content of <input_path> in that folder, returning a list of files with their corresponding path
+#A general function that creates a folder and unzips the content of <input_path> in that folder, 
+#returning a list of files with their corresponding path
 
 def unzip(input_path):
     output_path=input_path.rstrip(".zip")
