@@ -1,6 +1,6 @@
 ## VCF parser
 
-This script is part of a technical test I had to pass in order to apply for a job as bioinformatician. 
+This script is part of a technical test I had to solve for a bioinformatics job. 
 
 VCF files are the output of a typical NGS pipeline. In these files, SNPs and InDels in every chromosome position are listed for one specimen/colony/individual so that, comparing variants among individuals give us an idea of the relationship or the evolutive distance among them. After calculating these differences or "distances" among individuals we would be able to build their phylogenetic tree and estimate if they belong to a recent outbreak, having a close common ancestor or if they are more likely to be distant relatives.
 
