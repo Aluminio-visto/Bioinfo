@@ -1,4 +1,4 @@
-##VCF parser
+## VCF parser
 
 This script is part of a technical test I had to pass in order to apply for a job as bioinformatician. 
 
@@ -6,18 +6,18 @@ VCF files are the output of a typical NGS pipeline. In these files, SNPs and InD
 
 The task was divided in 5 sub-tasks:
 
-####Iteration 0 | Download repository
+#### Iteration 0 | Download repository
 
-####Iteration 1 | Parse VCF files to table/dataframe
+#### Iteration 1 | Parse VCF files to table/dataframe
 
 Create a function to read a single VCF
 
-####Iteration 2 | Extract relevant information from parsed VCF
+#### Iteration 2 | Extract relevant information from parsed VCF
 
 M. tuberculosis is a haployd organism but those were called (variant calling step) as diploid, hence you will see the usual diploid genotyping (0/0, 0/1, 1/1).
 With the correct information analysed, filter the SNPs actually present on each sample, this can be a different function.
 
-####Iteration 3 | Combine present SNP into a presence matrix
+#### Iteration 3 | Combine present SNP into a presence matrix
 
 Merge extracted information into a matrix to keep track of relevant info such as:
 -Sample name
@@ -26,16 +26,16 @@ Merge extracted information into a matrix to keep track of relevant info such as
 
 The preferred format is a binary Presence/Absence matrix
 
-####Iteration 4 | Calculate the SNP distance between all samples
+#### Iteration 4 | Calculate the SNP distance between all samples
 
 Determine the pairwise distance between each pair of samples
 
-####Iteration 5 | BONUS - Include INDELS
+#### Iteration 5 | BONUS - Include INDELS
 
 We have been using the term SNP distance but INDELS are also useful as phylogenetic marker
 Add subtle changes to the functions to include INDELS in the distance calculation
 
-####Iteration 6 | BONUS - Represent distance in a phylogenetic tree
+#### Iteration 6 | BONUS - Represent distance in a phylogenetic tree
 
 You can represent this distance in a dendrogram, using any method you find suitable.
 
