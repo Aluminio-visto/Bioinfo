@@ -2,6 +2,8 @@
 
 First we are going to pass a function to unzip our files, creating a folder for this purpose, the first function will parse the information about called variants in one VCF file, converting that table into a Pandas DataFrame, ignoring the ##INFO lines and headers, once we check this function works we'll parse all the 26 samples contained in our folder, extracting only the essential info (position, reference nucleotide and variant, with option to include INDELs), concatenating them in a single DataFrame. This DataFrame may be converted to a presence/absence table -very useful and common in ecology studies and metagenomics- thanks to the crosstab Pandas method. This table tells us which samples share the called variants in all VCFs, hence allowing to calculate the distances among samples. Finally, we may use these pairwise distances (and scipy has a great library for this kinds of calculations) to elaborate the dendrograms and heatmaps that visually explicit the differences or the phylogenetic relationships among our samples.
 
+I strongly recommend to see this Markdown file using a clear background for the sake of clarity in the final graphs.
+
 In [1]:
 
 ```python
