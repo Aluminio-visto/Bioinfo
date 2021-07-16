@@ -14,8 +14,8 @@ Create a function to read a single VCF
 
 #### Iteration 2 | Extract relevant information from parsed VCF
 
-M. tuberculosis is a haployd organism but those were called (variant calling step) as diploid, hence you will see the usual diploid genotyping (0/0, 0/1, 1/1).
-With the correct information analysed, filter the SNPs actually present on each sample, this can be a different function.
+M. tuberculosis is a haploid organism but the variants were called (variant calling step) as diploid, hence you will see the usual diploid genotyping (0/0, 0/1, 1/1).
+With the correct information analyzed, filter the SNPs actually present on each sample, this can be a different function.
 
 #### Iteration 3 | Combine present SNP into a presence matrix
 
