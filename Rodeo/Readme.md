@@ -1,6 +1,6 @@
 # Modelling plasmid spreading with Python and R
 
-_In this project we are going to build a mathematical model simulating how plasmids spread in a bacterial population, and we will simultae it using two different approaches and languages: Python and R and its library rodeo._
+_In this project we are going to build a mathematical model simulating how plasmids spread in a bacterial population, and we will do numerical simulations with Python. After that we´ll use  R and its library rodeo to exted the system to a more complex, two-connected-boxes system (contained in the next .md file)._
 
 ## Introduction 🚀
 
