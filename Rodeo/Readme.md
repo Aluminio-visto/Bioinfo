@@ -255,15 +255,22 @@ if __name__ == "__main__":
 
 ## Output 📦
 
-Thus, with this simple model we may predict how will the system evolve for the first  couple hours:
+Thus, with this simple model we may predict how will the system evolve for the first couple hours:
+
+### Mobilization
+![Mobilization(tau100)](https://user-images.githubusercontent.com/77884314/158076267-0d3b7bba-f2b5-4aad-911e-50772966d469.png)
+
+### Conjugation
+![Conjugation(tau10)](https://user-images.githubusercontent.com/77884314/158076275-98437e3b-f261-48ef-9b91-19ae3a53c40e.png)
+
 
 
 ## Built with 🛠️
 
-* [Visual CODE Studio](http://www.dropwizard.io/1.0.2/docs/) - The MarkDown editor
-* [Python 3.9](https://maven.apache.org/) - Programming language
-* [Matplotlib](https://rometools.github.io/rome/) - A graphic Python library
-* [rodeo](https://rometools.github.io/rome/) - A numeric simulator from R
+* [Visual CODE Studio](https://code.visualstudio.com/) - My preferred MarkDown editor, and everything else.
+* [Python 3.9](https://www.python.org) - Programming language
+* [Matplotlib](https://matplotlib.org) - The graphic Python library
+* [rodeo](https://cran.r-project.org/rodeoVignette) - A numeric simulator from R
 
 
 
