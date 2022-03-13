@@ -41,4 +41,5 @@ You can represent this distance in a dendrogram, using any method you find suita
 
 To follow along with the matrix format and the use of python, you are encouraged to use Scipy library, specifically linkage and dendrogram
 
-https://github.com/Aluminio-visto/Bioinfo/blob/main/VCF%20parser/Pruned%20tree.jpg
+![image](https://user-images.githubusercontent.com/77884314/158075238-8e140924-30ff-4929-b482-fd0dc5f4378d.png)
+
