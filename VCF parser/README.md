@@ -40,3 +40,5 @@ Add subtle changes to the functions to include INDELS in the distance calculatio
 You can represent this distance in a dendrogram, using any method you find suitable.
 
 To follow along with the matrix format and the use of python, you are encouraged to use Scipy library, specifically linkage and dendrogram
+
+https://github.com/Aluminio-visto/Bioinfo/blob/main/VCF%20parser/Pruned%20tree.jpg
