@@ -14,22 +14,18 @@ Outputs:
 
 Files should be organized like this:
 
--main
- \-ion.sh
- \-parser.py
-|
- \-reference
-    \-NC_045512.2.fasta
-    \-VOC.csv
-|
- \-Run_xxxx_folder
-    \-zip
-|
- \-Run_xxxy_folder
-    \-zip    
-|
- \-Run_xxxz_folder
-    \-zip   
+Main_folder
+├──ion.sh
+├──parser.py
+├──reference
+├  ├──NC_045512.2.fasta
+├  ├──VOC.csv
+├──Run_xxxx_folder
+   ├──zip
+├──Run_xxxy_folder
+   ├──zip    
+├──Run_xxxz_folder
+   ├──zip   
  
 And ion.sh should be launch with bash ../ion.sh inside every Run_xxx_folder.
 
