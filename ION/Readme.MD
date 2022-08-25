@@ -13,7 +13,7 @@ Outputs:
 -short/report.xlsx   (a spreadsheet detailing quality parameters, lineages, and unexpected mutations on spike protein for every sample)
 
 Files should be organized like this:
-
+```
 Main_folder
 ├──ion.sh
 ├──parser.py
@@ -26,18 +26,24 @@ Main_folder
    ├──zip    
 ├──Run_xxxz_folder
    ├──zip   
- 
+ ```
 And ion.sh should be launch with bash ../ion.sh inside every Run_xxx_folder.
 
-ion.sh uses the following programs, check them out and install them in a virtual environment (you can use the pangolin.yaml):
+ion.sh uses the following programs, check them out and install them in a virtual environment (you can use the pangolin.yaml in this repository):
 
 FastQC
 FastP
 BWA mem
 samtools
-pangolin
+Pangolin
 kraken2
 Mafft
 FastTree
 PlotTree
 
+In order to copy the virtual environment I use to run this script, download the yml file and then:
+```
+conda create --name your_new_conda_env --file pangolin.yml
+```
+
+Only tested in Ubuntu20.04
