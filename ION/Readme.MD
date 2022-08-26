@@ -1,3 +1,4 @@
+# Intro
 This is a pipeline for SARS-CoV2 sequencing data analysis.
 The main script, ion.sh, takes in the output of our IonTorrent sequencer (a zip file containing all fastq files from the run)
 and outputs a bunch of report files to assess if sequencing went right and which lineages/variants of concern/mutations in spike protein do we have.
@@ -29,17 +30,24 @@ Main_folder
  ```
 And ion.sh should be launch with bash ../ion.sh inside every Run_xxx_folder.
 
+# Usage
+
+``` 
+ion.sh [-u] [-p] <zip>
+   -u    Extracts unmapped reads and assign them taxonomic information (requires kraken2 and kraken2 database)
+   -p    Plots a phylogenetic tree based on FastTree output 
+   <zip> Zip file containing one unpaired .fastq file per sample
 ion.sh uses the following programs, check them out and install them in a virtual environment (you can use the pangolin.yaml in this repository):
 
-FastQC
-FastP
-BWA mem
-samtools
-Pangolin
-kraken2
-Mafft
-FastTree
-PlotTree
+[FastQC==0.11](https://github.com/s-andrews/FastQC)
+[FastP==0.23](https://github.com/OpenGene/fastp)
+[BWA-mem2==2.2.1](https://github.com/bwa-mem2/bwa-mem2)
+[SAMtools==1.6](http://www.htslib.org/)
+[Pangolin==4.1.2](https://cov-lineages.org/resources/pangolin/installation.html)
+[Kraken2==2.1](https://github.com/DerrickWood/kraken2)
+[Mafft==7.505](https://mafft.cbrc.jp/alignment/software/linux.html)
+[FastTree==2.1.11](http://www.microbesonline.org/fasttree/)
+[PlotTree](https://github.com/katholt/plotTree)
 
 In order to copy the virtual environment I use to run this script, download the yml file and then:
 ```
