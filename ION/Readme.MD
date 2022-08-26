@@ -9,9 +9,9 @@ Input required:
 - A VOC.csv   (a comma-separated value table containing the expected mutations in the spike for every Pango lineage, you may freely download my example sheet)
 
 Outputs:
--local_tree.png      (a phylogenetic tree in PNG format showing distances among samples, generated with MAFFT-fasttree-plottree)
--multiqc_report.html (a multiQC summarizing quality parameters, contaminant reads presence and lineage prediction)
--short/report.xlsx   (a spreadsheet detailing quality parameters, lineages, and unexpected mutations on spike protein for every sample)
+- multiqc_report.html (a multiQC summarizing quality parameters, contaminant reads presence and lineage prediction)
+- short/report.xlsx   (a spreadsheet detailing quality parameters, lineages, and unexpected mutations on spike protein for every sample)
+- local_tree.png      (a phylogenetic tree in PNG format showing distances among samples, generated with MAFFT-fasttree-plottree)(optional)
 
 Files should be organized like this:
 ```
