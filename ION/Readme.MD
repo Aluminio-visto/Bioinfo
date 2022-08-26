@@ -41,15 +41,15 @@ ion.sh [-u] [-p] <zip>
 
 ion.sh uses the following programs, check them out and install them in a virtual environment (you can use the pangolin.yaml in this repository):
 
--[FastQC==0.11](https://github.com/s-andrews/FastQC)
--[FastP==0.23](https://github.com/OpenGene/fastp)
--[BWA-mem2==2.2.1](https://github.com/bwa-mem2/bwa-mem2)
--[SAMtools==1.6](http://www.htslib.org/)
--[Pangolin==4.1.2](https://cov-lineages.org/resources/pangolin/installation.html)
--[Kraken2==2.1](https://github.com/DerrickWood/kraken2)
--[Mafft==7.505](https://mafft.cbrc.jp/alignment/software/linux.html)
--[FastTree==2.1.11](http://www.microbesonline.org/fasttree/)
--[PlotTree](https://github.com/katholt/plotTree)
+- [FastQC==0.11](https://github.com/s-andrews/FastQC)
+- [FastP==0.23](https://github.com/OpenGene/fastp)
+- [BWA-mem2==2.2.1](https://github.com/bwa-mem2/bwa-mem2)
+- [SAMtools==1.6](http://www.htslib.org/)
+- [Pangolin==4.1.2](https://cov-lineages.org/resources/pangolin/installation.html)
+- [Kraken2==2.1](https://github.com/DerrickWood/kraken2)
+- [Mafft==7.505](https://mafft.cbrc.jp/alignment/software/linux.html)
+- [FastTree==2.1.11](http://www.microbesonline.org/fasttree/)
+- [PlotTree](https://github.com/katholt/plotTree)
 
 In order to copy the virtual environment I use to run this script, download the yml file and then:
 ```
