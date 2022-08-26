@@ -37,6 +37,8 @@ ion.sh [-u] [-p] <zip>
    -u    Extracts unmapped reads and assign them taxonomic information (requires kraken2 and kraken2 database)
    -p    Plots a phylogenetic tree based on FastTree output 
    <zip> Zip file containing one unpaired .fastq file per sample
+```   
+
 ion.sh uses the following programs, check them out and install them in a virtual environment (you can use the pangolin.yaml in this repository):
 
 [FastQC==0.11](https://github.com/s-andrews/FastQC)
