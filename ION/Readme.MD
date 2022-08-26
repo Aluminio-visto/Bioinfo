@@ -4,9 +4,9 @@ The main script, ion.sh, takes in the output of our IonTorrent sequencer (a zip 
 and outputs a bunch of report files to assess if sequencing went right and which lineages/variants of concern/mutations in spike protein do we have.
 
 Input required:
--zip file  (named as zip by default by the IonTorrent server) containing one fastq file per sample.
--reference (a NC_045512.2.fasta file containing the consensus SARS-Cov2 nucleotide sequence)
--VOC.csv   (a comma-separated value table containing the expected mutations in the spike for every Pango lineage, you may freely download my example sheet)
+- A zip file  (named as zip by default by the IonTorrent server) containing one fastq file per sample.
+- A reference (a NC_045512.2.fasta file containing the consensus SARS-Cov2 nucleotide sequence)
+- A VOC.csv   (a comma-separated value table containing the expected mutations in the spike for every Pango lineage, you may freely download my example sheet)
 
 Outputs:
 -local_tree.png      (a phylogenetic tree in PNG format showing distances among samples, generated with MAFFT-fasttree-plottree)
